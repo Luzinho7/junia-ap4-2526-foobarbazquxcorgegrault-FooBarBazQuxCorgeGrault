@@ -1,7 +1,7 @@
 package com.jad;
 
 public class Grault {
-    private final Foo foo;
+    private Foo foo;
 
     public Grault(Foo foo) {
         this.foo = foo;
@@ -9,6 +9,5 @@ public class Grault {
     public Foo getFoo() {
         return this.foo;
     }
-
 }
 
