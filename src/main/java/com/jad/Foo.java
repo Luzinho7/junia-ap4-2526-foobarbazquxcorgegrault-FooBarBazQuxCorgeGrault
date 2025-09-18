@@ -25,7 +25,6 @@ public class Foo {
     public List<Baz> getBazs() {
         return this.bazs;
 }
-
     public Qux getQux() {
         return this.qux;
 }
@@ -37,4 +36,10 @@ public class Foo {
 }
     public void addGrault(){
         this.graults.add(new Grault(this));
+}
+    public void setCorge(Corge corge) {
+        if (this.corge != null) {
+            this.corge.setFoo(null);
+    }
+            this.corge = corge;
 }
