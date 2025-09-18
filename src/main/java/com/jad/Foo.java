@@ -16,6 +16,22 @@ public class Foo {
     public Foo(Bar bar) {
         this.bar = bar;
 }
+    public Bar getBar() {
+        return this.bar;
+}
+    public Corge getCorge() {
+        return this.corge;
+}
+    public List<Baz> getBazs() {
+        return this.bazs;
+}
+
+    public Qux getQux() {
+        return this.qux;
+}
+    public List<Grault> getGraults() {
+        return this.graults;
+}
     public void addBaz(Baz baz){
         this.bazs.add(baz);
 }
