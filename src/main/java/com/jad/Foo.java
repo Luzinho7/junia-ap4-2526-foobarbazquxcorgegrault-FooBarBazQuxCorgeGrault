@@ -16,3 +16,9 @@ public class Foo {
     public Foo(Bar bar) {
         this.bar = bar;
 }
+    public void addBaz(Baz baz){
+        this.bazs.add(baz);
+}
+    public void addGrault(){
+        this.graults.add(new Grault(this));
+}
