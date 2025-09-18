@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 public class Foo {
 
-}
     private Bar bar = new Bar();
 
     private List<Baz> bazs = new ArrayList<>();
